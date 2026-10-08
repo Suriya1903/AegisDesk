@@ -1,0 +1,44 @@
+[
+  {
+    "id": "KB001",
+    "title": "VPN Troubleshooting Guide",
+    "category": "Network",
+    "source": "Enterprise Network Support",
+    "content": "If the enterprise VPN is not connecting, first verify that the device has a working internet connection. Open a normal website to confirm connectivity before troubleshooting the VPN.\n\nConfirm that the approved VPN client is running and that the user is signing in with the current enterprise credentials. If the password was recently changed, sign out of the VPN client and authenticate again.\n\nIf authentication succeeds but the tunnel does not establish, restart the VPN client and retry. Check whether the issue affects only one employee or multiple employees. A widespread outage should be escalated to Network Support.\n\nDo not install an unapproved VPN client or change enterprise security settings. If the approved troubleshooting steps do not resolve the issue, create or update an incident for Network Support."
+  },
+  {
+    "id": "KB002",
+    "title": "Password Reset Procedure",
+    "category": "Account",
+    "source": "Enterprise Identity Support",
+    "content": "When an employee reports an expired password, use the approved enterprise password reset process. The employee should use the organization's password recovery portal and complete the required identity verification.\n\nAfter resetting the password, sign in again to the affected enterprise applications. Some applications may require the employee to enter the new password again or restart the application.\n\nNever ask an employee to send their password to the helpdesk. Support staff must not request or store passwords in tickets or chat messages.\n\nIf the recovery portal is unavailable or identity verification fails, escalate the request to Identity Support rather than bypassing the verification controls."
+  },
+  {
+    "id": "KB003",
+    "title": "Outlook Synchronization Guide",
+    "category": "Email",
+    "source": "Enterprise Messaging Support",
+    "content": "For Outlook synchronization problems, first confirm that the device is connected to the internet and that Outlook is not in offline mode. Check whether the issue affects one mailbox or multiple users.\n\nRestart Outlook and allow several minutes for synchronization. If the mailbox remains out of date, verify that the correct enterprise account is configured in the client.\n\nDo not delete the mailbox profile as a first step because doing so can remove local configuration and cached data. Use the approved profile repair procedure when basic checks do not resolve the issue.\n\nIf multiple users report synchronization failures at the same time, escalate to Enterprise Messaging Support because the issue may be service-wide."
+  },
+  {
+    "id": "KB004",
+    "title": "Wi-Fi Troubleshooting",
+    "category": "Network",
+    "source": "Enterprise Network Support",
+    "content": "For enterprise Wi-Fi connectivity issues, verify that Wi-Fi is enabled and that the device is within the expected coverage area. Confirm that other devices can connect to the same enterprise network when possible.\n\nForget and reconnect to the approved enterprise wireless network only when the standard support procedure recommends it. Re-enter credentials through the approved authentication flow.\n\nIf the device can see the network but cannot authenticate, check for account or certificate-related problems and escalate to Network Support when required. Do not disable endpoint security controls to force a connection."
+  },
+  {
+    "id": "KB005",
+    "title": "Laptop Performance Guide",
+    "category": "Hardware",
+    "source": "Enterprise Endpoint Support",
+    "content": "When an enterprise laptop is slow, close unnecessary applications and restart the device if it has been running for an extended period. Check whether the slowdown occurs in one application or across the entire device.\n\nVerify that the device has sufficient free storage and that approved operating system updates are not waiting for installation. Avoid downloading unofficial cleanup or optimization utilities.\n\nIf performance remains poor after standard checks, collect the device name, affected application and approximate time of the issue and create an endpoint support ticket."
+  },
+  {
+    "id": "KB006",
+    "title": "Software Installation Policy",
+    "category": "Software",
+    "source": "Enterprise Software Catalogue",
+    "content": "Employees must request enterprise software through the approved software catalogue or IT service request workflow. The request should identify the software name, business purpose and target device when required.\n\nOnly approved software should be provisioned through the enterprise process. The helpdesk should not instruct employees to download software from unofficial sources or bypass software approval controls.\n\nFor approved software, the ITSM workflow can create a service request and send it to the provisioning process. The request status should be tracked until provisioning is completed or requires human approval."
+  }
+]
